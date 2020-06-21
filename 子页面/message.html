@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给我留言</title>
+    <link rel="stylesheet" href="../css/message.css">
+</head>
+<body>
+    <!--标题-->
+    <h1>
+        留言板
+    </h1>
+    <!--内容区-->
+    <div id="content">
+        <form action="url">
+            <!--将表单元素放入HTML结构实现表格显示布局-->
+            <table>
+                <tr>
+                    <td>姓名：</td>
+                    <td><input type="text" name="name" ></td>
+                </tr>
+                <tr>
+                    <td>邮箱：</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td>留言：</td>
+                    <td><textarea name="content" id="" ></textarea></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <!--页脚区用来显示文字轮播-->
+    <div id="footer">
+        <p id="text">
+            真诚的感谢每一位给予我宝贵意见与批评指正的朋友
+        </p> 
+        <p id="audio">
+            <!--给页面添加音频控件-->
+            <audio src="../音乐/音乐1.mp3" controls autoplay loop></audio>
+            <!--返回主页-->
+            <button><a href="../index.html">返回</a></button>
+        </p>
+
+    </div>
+</body>
+</html>

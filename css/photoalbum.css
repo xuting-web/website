@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/背景5.jpeg);
+}
+
+
+#header{
+    margin-top: 30px;
+    text-align: center;
+    color: darkmagenta;
+    word-spacing: 5px;
+}
+
+#content{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+}
+#content_1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 100px;
+    float: left;
+}
+
+#content_2{
+    width: 200px;
+    height: 400px;
+    margin-left: 520px;
+    float: left;
+}
+
+.text{
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline;
+    writing-mode: tb-rl;
+    color:darkblue;
+    letter-spacing: 0.3em;
+    line-height: 50px;
+}
+
+#content_3{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    margin-left:700px;
+    float: left;
+}
+
+img{
+    float: left;
+}
+
+.photo{
+    width: 2000px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    animation-name:move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move{
+    0%{
+        left: 0px;
+    }
+    25%{
+        left:-400px;
+    }
+    50%{
+        left:-800px;
+    }
+    75%{
+        left:-1200px
+    }
+    100%{
+        left:-1600px
+    }
+}
+
+#content_4{
+    height: 400px;
+    width: 200px;
+    margin-left: 400px;
+    float: left;
+}
+
+#audio{
+    margin: 50px;
+    text-align: center;
+}
+
+button{
+    margin-top: 0px;
+    margin-right: 80px;
+    height: 30px;
+    width: 50px;
+    float: right;
+    color:white;
+    background-color:slategray ;
+}
+a{
+    color: white;
+}
+
+
+
